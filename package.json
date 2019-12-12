@@ -7,8 +7,10 @@
   "author": "Davi Silva",
   "license": "MIT",
   "scripts": {
+    "test": "yarn truffle test",
     "compile": "yarn truffle compile",
     "migrate": "yarn truffle migrate",
+    "migrate reset": "yarn truffle migrate --reset",
     "console": "yarn truffle console"
   },
   "dependencies": {},
